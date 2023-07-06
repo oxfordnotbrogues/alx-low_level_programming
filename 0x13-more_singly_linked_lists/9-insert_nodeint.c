@@ -7,7 +7,7 @@
  * @n: data to insert the new code
  * Return: pointer to the new node or NULL
  */
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	unsigned int i;
 	listint_t *new;
